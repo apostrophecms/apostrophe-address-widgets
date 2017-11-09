@@ -1,0 +1,7 @@
+{% set widget = data.widget %}
+<address>
+  {% if widget.lineOne %}<p>{{ widget.lineOne }}</p>{% endif %}
+  {% if widget.lineTwo %}<p>{{ widget.lineTwo }}</p>{% endif %}
+  <p>{{ widget.city }}, {{ widget.state }} {{ widget.zip }}</p>
+  {% if widget.country %}<p>{{ widget.country }}</p>{% endif %}
+</address>
