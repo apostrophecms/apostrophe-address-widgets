@@ -2,7 +2,7 @@
 
 An address widget for [ApostropheCMS](http://apostrophecms.org/).
 
-`apostrophe-address-widgets` provides a simple way for users to create an address or for developers to add schema for an address.
+`apostrophe-address-widgets` provides a simple way for users to create an address or for developers to add schema for an address, such as a mailing address.
 
 ## Installation
 
