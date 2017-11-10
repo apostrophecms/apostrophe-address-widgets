@@ -20,7 +20,7 @@ module.exports = {
     },
     {
       name: 'state',
-      label: 'State',
+      label: 'State/Province',
       type: 'string',
       required: true
     },
@@ -36,4 +36,4 @@ module.exports = {
       type: 'string'
     }
   ]
-}
+};
