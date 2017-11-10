@@ -5,7 +5,8 @@ module.exports = {
     {
       name: 'lineOne',
       label: 'Address Line 1',
-      type: 'string'
+      type: 'string',
+      required: true
     },
     {
       name: 'lineTwo',
